@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #000;
+  color:#d1d1d1;
+}
+
+/* Style the header */
+.header {
+  background-color: #222;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+
+.column1 {
+  text-align: center;
+  width: 100%;
+  background-color: #111;
+  padding: 10px;
+}
+
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#iss-pos {
+  width: 620px;
+  height: 352px;
+  border:none;
+  background-color: #111;
+}
+
+
